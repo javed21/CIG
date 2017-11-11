@@ -13,6 +13,7 @@
 # Variables defined here can be used in various places in this recipe:
 # For static builds, we need to override the defaults from the cmake.lwt recipe:
 
+
 inherit: cmake
 depends:
 - gnuradio
